@@ -1,0 +1,3 @@
+2022-05-17 12:10:48.026 | INFO     | __main__:<module>:248 - START: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 12:10:50.566 | INFO     | __main__:<module>:250 - FINISH: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 12:10:50.576 | INFO     | __main__:<module>:248 - START: (select 次要主题,count(*) from CPFDTEMP where top 40000 group by (次要主题,'NVSM关键词') )

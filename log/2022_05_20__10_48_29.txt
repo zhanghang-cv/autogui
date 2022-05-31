@@ -1,0 +1,28 @@
+2022-05-20 10:48:32.537 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CJFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 10:48:37.242 | INFO     | __main__:run:176 - page num: 100
+2022-05-20 10:54:56.973 | INFO     | __main__:run:210 - total items: 1001
+2022-05-20 10:54:56.986 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CJFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 10:54:56.988 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CCJDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 10:55:01.671 | INFO     | __main__:run:176 - page num: 2
+2022-05-20 10:55:07.881 | INFO     | __main__:run:210 - total items: 20
+2022-05-20 10:55:07.884 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CCJDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 10:55:07.885 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CJFOTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 10:55:12.556 | INFO     | __main__:run:176 - page num: 100
+2022-05-20 11:01:33.843 | INFO     | __main__:run:210 - total items: 1000
+2022-05-20 11:01:33.856 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CJFOTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:01:33.859 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CPFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:01:38.532 | INFO     | __main__:run:176 - page num: 100
+2022-05-20 11:07:58.872 | INFO     | __main__:run:210 - total items: 1006
+2022-05-20 11:07:58.886 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CPFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:07:58.889 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from IPFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:08:03.575 | INFO     | __main__:run:176 - page num: 100
+2022-05-20 11:14:19.496 | INFO     | __main__:run:210 - total items: 1152
+2022-05-20 11:14:19.512 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from IPFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:14:19.514 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CMFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:14:24.190 | INFO     | __main__:run:176 - page num: 2
+2022-05-20 11:14:30.402 | INFO     | __main__:run:210 - total items: 20
+2022-05-20 11:14:30.407 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CMFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:14:30.409 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CDFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-20 11:14:35.091 | INFO     | __main__:run:176 - page num: 100
+2022-05-20 11:20:52.927 | INFO     | __main__:run:210 - total items: 1000
+2022-05-20 11:20:52.940 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CDFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )

@@ -1,0 +1,4 @@
+2022-05-17 14:42:08.042 | INFO     | __main__:<module>:249 - START: (select 报告级别代码,count(*) from CPFDTEMP where top 40000 group by (报告级别代码,'minteger'))
+2022-05-17 14:42:12.734 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 14:42:15.114 | INFO     | __main__:run:210 - total items: 2
+2022-05-17 14:42:15.117 | INFO     | __main__:<module>:251 - FINISH: (select 报告级别代码,count(*) from CPFDTEMP where top 40000 group by (报告级别代码,'minteger'))

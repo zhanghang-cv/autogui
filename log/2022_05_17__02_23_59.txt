@@ -1,0 +1,5 @@
+2022-05-17 02:24:03.157 | INFO     | __main__:<module>:248 - START: (select 年,count(*) from CJFDTEMP where top 40000 group by (年,'Date') )
+2022-05-17 02:24:07.858 | INFO     | __main__:run:176 - page num: 3
+2022-05-17 02:24:17.920 | INFO     | __main__:run:210 - total items: 25
+2022-05-17 02:24:17.924 | INFO     | __main__:<module>:250 - FINISH: (select 年,count(*) from CJFDTEMP where top 40000 group by (年,'Date') )
+2022-05-17 02:24:17.926 | INFO     | __main__:<module>:248 - START: (select 机构代码,count(*) from CJFDTEMP where top 40000 group by (机构代码,'MINTEGER') )

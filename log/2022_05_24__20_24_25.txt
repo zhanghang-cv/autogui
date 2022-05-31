@@ -1,0 +1,3 @@
+2022-05-24 20:24:29.432 | INFO     | __main__:<module>:246 - START: (select 分类号,中文刊名,拼音刊名 from cjfdtotal where 分类号 ='J22?' or  分类号 = 'J292.2?' or  分类号 = 'J292.47' or  分类号 = 'J32?' or  分类号 = 'J42?' or  分类号 = 'J521' or  分类号 = 'J522?' or  分类号 = 'J523?' or  分类号 = 'J524?' or  分类号 = 'J525?' or  分类号 = 'J526?' or  分类号 = 'J527?' or  分类号 = 'J528?' or  分类号 = 'J529?' or  分类号 = 'J64?' or  分类号 = 'J722?' or  分类号 = 'J723? ' group by 拼音刊名)
+2022-05-24 20:24:34.119 | INFO     | __main__:run:176 - page num: 89
+2022-05-24 20:24:44.229 | INFO     | __main__:run:211 - total items: 30

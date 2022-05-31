@@ -1,0 +1,52 @@
+2022-05-17 14:45:01.931 | INFO     | __main__:<module>:248 - START: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 14:45:04.463 | INFO     | __main__:<module>:250 - FINISH: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 14:45:04.476 | INFO     | __main__:<module>:248 - START: (select 报告级别代码,count(*) from IPFDTEMP where top 40000 group by (报告级别代码,'minteger') )
+2022-05-17 14:45:07.005 | INFO     | __main__:<module>:250 - FINISH: (select 报告级别代码,count(*) from IPFDTEMP where top 40000 group by (报告级别代码,'minteger') )
+2022-05-17 14:45:07.017 | INFO     | __main__:<module>:248 - START: (select 新导师代码,count(*) from CMFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )
+2022-05-17 14:45:09.548 | INFO     | __main__:<module>:250 - FINISH: (select 新导师代码,count(*) from CMFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )
+2022-05-17 14:45:09.554 | INFO     | __main__:<module>:248 - START: (select 专题子栏目代码,count(*) from CDFDTEMP where top 40000 group by (专题子栏目代码,'CCL3') )
+2022-05-17 14:45:14.236 | INFO     | __main__:run:176 - page num: 66
+2022-05-17 14:49:02.216 | INFO     | __main__:run:210 - total items: 652
+2022-05-17 14:49:02.225 | INFO     | __main__:<module>:250 - FINISH: (select 专题子栏目代码,count(*) from CDFDTEMP where top 40000 group by (专题子栏目代码,'CCL3') )
+2022-05-17 14:49:02.228 | INFO     | __main__:<module>:248 - START: (select 专题子栏目代码,count(*) from CDFDTEMP where top 40000 group by (专题子栏目代码,'CCL4') )
+2022-05-17 14:49:06.919 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 14:54:42.161 | INFO     | __main__:run:210 - total items: 970
+2022-05-17 14:54:42.174 | INFO     | __main__:<module>:250 - FINISH: (select 专题子栏目代码,count(*) from CDFDTEMP where top 40000 group by (专题子栏目代码,'CCL4') )
+2022-05-17 14:54:42.176 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CDFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-17 14:54:46.873 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 15:00:33.756 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 15:00:33.774 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CDFDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-17 15:00:33.777 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC1') )
+2022-05-17 15:00:38.467 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 15:00:40.837 | INFO     | __main__:run:210 - total items: 2
+2022-05-17 15:00:40.839 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC1') )
+2022-05-17 15:00:40.841 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC2') )
+2022-05-17 15:00:45.528 | INFO     | __main__:run:176 - page num: 12
+2022-05-17 15:01:25.186 | INFO     | __main__:run:210 - total items: 112
+2022-05-17 15:01:25.189 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC2') )
+2022-05-17 15:01:25.191 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC3') )
+2022-05-17 15:01:29.874 | INFO     | __main__:run:176 - page num: 93
+2022-05-17 15:06:47.697 | INFO     | __main__:run:210 - total items: 927
+2022-05-17 15:06:47.709 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC3') )
+2022-05-17 15:06:47.711 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC4') )
+2022-05-17 15:06:52.434 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 15:12:53.371 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 15:12:53.385 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CDFDTEMP where top 40000 group by (行业分类代码,'HYCLSC4') )
+2022-05-17 15:12:53.388 | INFO     | __main__:<module>:248 - START: (select 人工标识码,count(*) from CDFDTEMP where top 40000 group by (人工标识码,'人工标识码') )
+2022-05-17 15:12:58.077 | INFO     | __main__:run:176 - page num: 3
+2022-05-17 15:13:06.734 | INFO     | __main__:run:210 - total items: 22
+2022-05-17 15:13:06.737 | INFO     | __main__:<module>:250 - FINISH: (select 人工标识码,count(*) from CDFDTEMP where top 40000 group by (人工标识码,'人工标识码') )
+2022-05-17 15:13:06.740 | INFO     | __main__:<module>:248 - START: (select 主要主题,count(*) from CDFDTEMP where top 40000 group by (主要主题,'NVSM关键词') )
+2022-05-17 15:13:11.434 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 15:19:11.428 | INFO     | __main__:run:210 - total items: 1001
+2022-05-17 15:19:11.445 | INFO     | __main__:<module>:250 - FINISH: (select 主要主题,count(*) from CDFDTEMP where top 40000 group by (主要主题,'NVSM关键词') )
+2022-05-17 15:19:11.448 | INFO     | __main__:<module>:248 - START: (select 次要主题,count(*) from CDFDTEMP where top 40000 group by (次要主题,'NVSM关键词') )
+2022-05-17 15:19:16.141 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 15:25:09.959 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 15:25:09.976 | INFO     | __main__:<module>:250 - FINISH: (select 次要主题,count(*) from CDFDTEMP where top 40000 group by (次要主题,'NVSM关键词') )
+2022-05-17 15:25:09.979 | INFO     | __main__:<module>:248 - START: (select 新作者代码,count(*) from CDFDTEMP where top 40000 group by (新作者代码,'MINTEGER') )
+2022-05-17 15:25:14.676 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 15:30:53.056 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 15:30:53.076 | INFO     | __main__:<module>:250 - FINISH: (select 新作者代码,count(*) from CDFDTEMP where top 40000 group by (新作者代码,'MINTEGER') )
+2022-05-17 15:30:53.079 | INFO     | __main__:<module>:248 - START: (select 新导师代码,count(*) from CDFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )
+2022-05-17 15:30:55.601 | INFO     | __main__:<module>:250 - FINISH: (select 新导师代码,count(*) from CDFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )

@@ -1,0 +1,8 @@
+2022-05-17 15:48:39.751 | INFO     | __main__:<module>:248 - START: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 15:48:42.233 | INFO     | __main__:<module>:250 - FINISH: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 15:48:42.245 | INFO     | __main__:<module>:248 - START: (select 报告级别代码,count(*) from IPFDTEMP where top 40000 group by (报告级别代码,'minteger') )
+2022-05-17 15:48:44.721 | INFO     | __main__:<module>:250 - FINISH: (select 报告级别代码,count(*) from IPFDTEMP where top 40000 group by (报告级别代码,'minteger') )
+2022-05-17 15:48:44.731 | INFO     | __main__:<module>:248 - START: (select 新导师代码,count(*) from CMFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )
+2022-05-17 15:48:47.202 | INFO     | __main__:<module>:250 - FINISH: (select 新导师代码,count(*) from CMFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )
+2022-05-17 15:48:47.209 | INFO     | __main__:<module>:248 - START: (select 新导师代码,count(*) from CDFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )
+2022-05-17 15:48:49.688 | INFO     | __main__:<module>:250 - FINISH: (select 新导师代码,count(*) from CDFDTEMP where top 40000 group by (新导师代码,'MINTEGER') )

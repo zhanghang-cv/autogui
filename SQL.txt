@@ -1,0 +1,1 @@
+select 分类号,中文刊名,拼音刊名 from cjfdtotal where (分类号 = 'I210?' AND 作者='鲁迅') or (分类号 = I21? NOT 分类号 = I210?) or  分类号 = 'I22?' or  分类号 = 'I23?' or  分类号 = 'I24?' or  分类号 = 'I25?' or  分类号 = 'I26?' or  分类号 = 'I27?' or  分类号 = 'I28?' or  分类号 = 'I29?' group by 拼音刊名

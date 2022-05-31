@@ -1,0 +1,196 @@
+2022-05-17 10:06:01.676 | INFO     | __main__:<module>:248 - START: (select 机标关键词,count(*) from CJFOTEMP where top 40000 group by (机标关键词,'机标关键词') )
+2022-05-17 10:06:06.348 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:06:11.828 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:06:11.831 | INFO     | __main__:<module>:250 - FINISH: (select 机标关键词,count(*) from CJFOTEMP where top 40000 group by (机标关键词,'机标关键词') )
+2022-05-17 10:06:11.832 | INFO     | __main__:<module>:248 - START: (select 文献标识码,count(*) from CJFOTEMP where top 40000 group by (文献标识码,'文献标识码') )
+2022-05-17 10:06:16.592 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 10:06:18.939 | INFO     | __main__:run:210 - total items: 2
+2022-05-17 10:06:18.942 | INFO     | __main__:<module>:250 - FINISH: (select 文献标识码,count(*) from CJFOTEMP where top 40000 group by (文献标识码,'文献标识码') )
+2022-05-17 10:06:18.944 | INFO     | __main__:<module>:248 - START: (select 拼音刊名,count(*) from CJFOTEMP where top 40000 group by (拼音刊名,'来源代码') )
+2022-05-17 10:06:23.612 | INFO     | __main__:run:176 - page num: 16
+2022-05-17 10:07:16.622 | INFO     | __main__:run:210 - total items: 152
+2022-05-17 10:07:16.626 | INFO     | __main__:<module>:250 - FINISH: (select 拼音刊名,count(*) from CJFOTEMP where top 40000 group by (拼音刊名,'来源代码') )
+2022-05-17 10:07:16.628 | INFO     | __main__:<module>:248 - START: (select 来源标识码,count(*) from CJFOTEMP where top 40000 group by (来源标识码,'期刊来源标识码') )
+2022-05-17 10:07:21.341 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 10:07:23.742 | INFO     | __main__:run:210 - total items: 2
+2022-05-17 10:07:23.745 | INFO     | __main__:<module>:250 - FINISH: (select 来源标识码,count(*) from CJFOTEMP where top 40000 group by (来源标识码,'期刊来源标识码') )
+2022-05-17 10:07:23.747 | INFO     | __main__:<module>:248 - START: (select 出版物代码,count(*) from CJFOTEMP where top 40000 group by (出版物代码,'出版物代码') )
+2022-05-17 10:07:28.467 | INFO     | __main__:run:176 - page num: 16
+2022-05-17 10:08:24.440 | INFO     | __main__:run:210 - total items: 152
+2022-05-17 10:08:24.446 | INFO     | __main__:<module>:250 - FINISH: (select 出版物代码,count(*) from CJFOTEMP where top 40000 group by (出版物代码,'出版物代码') )
+2022-05-17 10:08:24.448 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CJFOTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-17 10:08:29.156 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 10:14:44.090 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 10:14:44.104 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CJFOTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-17 10:14:44.108 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC1') )
+2022-05-17 10:14:48.781 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 10:14:51.147 | INFO     | __main__:run:210 - total items: 2
+2022-05-17 10:14:51.150 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC1') )
+2022-05-17 10:14:51.153 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC2') )
+2022-05-17 10:14:55.828 | INFO     | __main__:run:176 - page num: 11
+2022-05-17 10:15:34.557 | INFO     | __main__:run:210 - total items: 110
+2022-05-17 10:15:34.561 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC2') )
+2022-05-17 10:15:34.562 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC3') )
+2022-05-17 10:15:39.242 | INFO     | __main__:run:176 - page num: 97
+2022-05-17 10:21:02.984 | INFO     | __main__:run:210 - total items: 967
+2022-05-17 10:21:02.996 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC3') )
+2022-05-17 10:21:02.999 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC4') )
+2022-05-17 10:21:07.684 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 10:26:47.172 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 10:26:47.184 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CJFOTEMP where top 40000 group by (行业分类代码,'HYCLSC4') )
+2022-05-17 10:26:47.185 | INFO     | __main__:<module>:248 - START: (select 期刊栏目层次,count(*) from CJFOTEMP where top 40000 group by (期刊栏目层次,'期刊栏目') )
+2022-05-17 10:26:51.846 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 10:32:49.813 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 10:32:49.830 | INFO     | __main__:<module>:250 - FINISH: (select 期刊栏目层次,count(*) from CJFOTEMP where top 40000 group by (期刊栏目层次,'期刊栏目') )
+2022-05-17 10:32:49.833 | INFO     | __main__:<module>:248 - START: (select 第一作者代码,count(*) from CJFOTEMP where top 40000 group by (第一作者代码,'MINTEGER') )
+2022-05-17 10:32:54.509 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:33:00.022 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:33:00.025 | INFO     | __main__:<module>:250 - FINISH: (select 第一作者代码,count(*) from CJFOTEMP where top 40000 group by (第一作者代码,'MINTEGER') )
+2022-05-17 10:33:00.027 | INFO     | __main__:<module>:248 - START: (select 第一机构代码,count(*) from CJFOTEMP where top 40000 group by (第一机构代码,'MINTEGER') )
+2022-05-17 10:33:04.729 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:33:10.961 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:33:10.964 | INFO     | __main__:<module>:250 - FINISH: (select 第一机构代码,count(*) from CJFOTEMP where top 40000 group by (第一机构代码,'MINTEGER') )
+2022-05-17 10:33:10.965 | INFO     | __main__:<module>:248 - START: (select 通讯作者代码,count(*) from CJFOTEMP where top 40000 group by (通讯作者代码,'MINTEGER') )
+2022-05-17 10:33:15.652 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:33:21.127 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:33:21.130 | INFO     | __main__:<module>:250 - FINISH: (select 通讯作者代码,count(*) from CJFOTEMP where top 40000 group by (通讯作者代码,'MINTEGER') )
+2022-05-17 10:33:21.133 | INFO     | __main__:<module>:248 - START: (select 通讯作者机构代码,count(*) from CJFOTEMP where top 40000 group by (通讯作者机构代码,'MINTEGER') )
+2022-05-17 10:33:25.826 | INFO     | __main__:run:176 - page num: 3
+2022-05-17 10:33:35.150 | INFO     | __main__:run:210 - total items: 30
+2022-05-17 10:33:35.152 | INFO     | __main__:<module>:250 - FINISH: (select 通讯作者机构代码,count(*) from CJFOTEMP where top 40000 group by (通讯作者机构代码,'MINTEGER') )
+2022-05-17 10:33:35.153 | INFO     | __main__:<module>:248 - START: (select 人工标识码,count(*) from CJFOTEMP where top 40000 group by (人工标识码,'人工标识码') )
+2022-05-17 10:33:39.838 | INFO     | __main__:run:176 - page num: 3
+2022-05-17 10:33:49.163 | INFO     | __main__:run:210 - total items: 23
+2022-05-17 10:33:49.166 | INFO     | __main__:<module>:250 - FINISH: (select 人工标识码,count(*) from CJFOTEMP where top 40000 group by (人工标识码,'人工标识码') )
+2022-05-17 10:33:49.168 | INFO     | __main__:<module>:248 - START: (select 主要主题,count(*) from CJFOTEMP where top 40000 group by (主要主题,'NVSM关键词') )
+2022-05-17 10:33:53.868 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 10:39:50.838 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 10:39:50.852 | INFO     | __main__:<module>:250 - FINISH: (select 主要主题,count(*) from CJFOTEMP where top 40000 group by (主要主题,'NVSM关键词') )
+2022-05-17 10:39:50.856 | INFO     | __main__:<module>:248 - START: (select 次要主题,count(*) from CJFOTEMP where top 40000 group by (次要主题,'NVSM关键词') )
+2022-05-17 10:39:55.550 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:40:01.765 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:40:01.768 | INFO     | __main__:<module>:250 - FINISH: (select 次要主题,count(*) from CJFOTEMP where top 40000 group by (次要主题,'NVSM关键词') )
+2022-05-17 10:40:01.770 | INFO     | __main__:<module>:248 - START: (select 新作者代码,count(*) from CJFOTEMP where top 40000 group by (新作者代码,'MINTEGER') )
+2022-05-17 10:40:06.436 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:40:11.959 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:40:11.962 | INFO     | __main__:<module>:250 - FINISH: (select 新作者代码,count(*) from CJFOTEMP where top 40000 group by (新作者代码,'MINTEGER') )
+2022-05-17 10:40:11.964 | INFO     | __main__:<module>:248 - START: (select 年,count(*) from CCNDTEMP where top 40000 group by (年,'Date') )
+2022-05-17 10:40:16.664 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 10:40:19.027 | INFO     | __main__:run:210 - total items: 10
+2022-05-17 10:40:19.031 | INFO     | __main__:<module>:250 - FINISH: (select 年,count(*) from CCNDTEMP where top 40000 group by (年,'Date') )
+2022-05-17 10:40:19.033 | INFO     | __main__:<module>:248 - START: (select 作者代码,count(*) from CCNDTEMP where top 40000 group by (作者代码,'MINTEGER') )
+2022-05-17 10:40:23.723 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 10:45:55.445 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 10:45:55.458 | INFO     | __main__:<module>:250 - FINISH: (select 作者代码,count(*) from CCNDTEMP where top 40000 group by (作者代码,'MINTEGER') )
+2022-05-17 10:45:55.462 | INFO     | __main__:<module>:248 - START: (select 机构代码,count(*) from CCNDTEMP where top 40000 group by (机构代码,'MINTEGER') )
+2022-05-17 10:46:00.181 | INFO     | __main__:run:176 - page num: 72
+2022-05-17 10:50:08.098 | INFO     | __main__:run:210 - total items: 688
+2022-05-17 10:50:08.106 | INFO     | __main__:<module>:250 - FINISH: (select 机构代码,count(*) from CCNDTEMP where top 40000 group by (机构代码,'MINTEGER') )
+2022-05-17 10:50:08.108 | INFO     | __main__:<module>:248 - START: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 10:50:10.622 | INFO     | __main__:<module>:250 - FINISH: (select 基金代码,count(*) from CCNDTEMP where top 40000 group by (基金代码,'MINTEGER') )
+2022-05-17 10:50:10.625 | INFO     | __main__:<module>:248 - START: (select 来源代码,count(*) from CCNDTEMP where top 40000 group by (来源代码,'来源代码') )
+2022-05-17 10:50:15.329 | INFO     | __main__:run:176 - page num: 21
+2022-05-17 10:51:26.585 | INFO     | __main__:run:210 - total items: 208
+2022-05-17 10:51:26.590 | INFO     | __main__:<module>:250 - FINISH: (select 来源代码,count(*) from CCNDTEMP where top 40000 group by (来源代码,'来源代码') )
+2022-05-17 10:51:26.592 | INFO     | __main__:<module>:248 - START: (select 出版物代码,count(*) from CCNDTEMP where top 40000 group by (出版物代码,'出版物代码') )
+2022-05-17 10:51:31.276 | INFO     | __main__:run:176 - page num: 18
+2022-05-17 10:52:30.320 | INFO     | __main__:run:210 - total items: 175
+2022-05-17 10:52:30.326 | INFO     | __main__:<module>:250 - FINISH: (select 出版物代码,count(*) from CCNDTEMP where top 40000 group by (出版物代码,'出版物代码') )
+2022-05-17 10:52:30.328 | INFO     | __main__:<module>:248 - START: (select 机标关键词,count(*) from CCNDTEMP where top 40000 group by (机标关键词,'机标关键词') )
+2022-05-17 10:52:35.004 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:52:40.473 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:52:40.476 | INFO     | __main__:<module>:250 - FINISH: (select 机标关键词,count(*) from CCNDTEMP where top 40000 group by (机标关键词,'机标关键词') )
+2022-05-17 10:52:40.477 | INFO     | __main__:<module>:248 - START: (select 文献标识码,count(*) from CCNDTEMP where top 40000 group by (文献标识码,'文献标识码') )
+2022-05-17 10:52:45.143 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:52:50.626 | INFO     | __main__:run:210 - total items: 12
+2022-05-17 10:52:50.629 | INFO     | __main__:<module>:250 - FINISH: (select 文献标识码,count(*) from CCNDTEMP where top 40000 group by (文献标识码,'文献标识码') )
+2022-05-17 10:52:50.632 | INFO     | __main__:<module>:248 - START: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl1') )
+2022-05-17 10:52:55.295 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 10:53:00.791 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 10:53:00.794 | INFO     | __main__:<module>:250 - FINISH: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl1') )
+2022-05-17 10:53:00.796 | INFO     | __main__:<module>:248 - START: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl2') )
+2022-05-17 10:53:05.485 | INFO     | __main__:run:176 - page num: 17
+2022-05-17 10:54:00.715 | INFO     | __main__:run:210 - total items: 167
+2022-05-17 10:54:00.719 | INFO     | __main__:<module>:250 - FINISH: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl2') )
+2022-05-17 10:54:00.721 | INFO     | __main__:<module>:248 - START: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl3') )
+2022-05-17 10:54:05.418 | INFO     | __main__:run:176 - page num: 76
+2022-05-17 10:58:19.571 | INFO     | __main__:run:210 - total items: 753
+2022-05-17 10:58:19.586 | INFO     | __main__:<module>:250 - FINISH: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl3') )
+2022-05-17 10:58:19.589 | INFO     | __main__:<module>:248 - START: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl4') )
+2022-05-17 10:58:24.274 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 11:04:01.715 | INFO     | __main__:run:210 - total items: 970
+2022-05-17 11:04:01.728 | INFO     | __main__:<module>:250 - FINISH: (select 专题子栏目代码,count(*) from CCNDTEMP where top 40000 group by (专题子栏目代码,'ccl4') )
+2022-05-17 11:04:01.732 | INFO     | __main__:<module>:248 - START: (select NVSM_分组,count(*) from CCNDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-17 11:04:06.384 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 11:10:19.940 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 11:10:19.957 | INFO     | __main__:<module>:250 - FINISH: (select NVSM_分组,count(*) from CCNDTEMP where top 40000 group by (NVSM_分组,'nvsm关键词') )
+2022-05-17 11:10:19.959 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC1') )
+2022-05-17 11:10:24.638 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 11:10:27.008 | INFO     | __main__:run:210 - total items: 2
+2022-05-17 11:10:27.011 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC1') )
+2022-05-17 11:10:27.013 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC2') )
+2022-05-17 11:10:31.703 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 11:10:37.945 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 11:10:37.949 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC2') )
+2022-05-17 11:10:37.951 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC3') )
+2022-05-17 11:10:42.653 | INFO     | __main__:run:176 - page num: 25
+2022-05-17 11:12:10.644 | INFO     | __main__:run:210 - total items: 247
+2022-05-17 11:12:10.649 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC3') )
+2022-05-17 11:12:10.651 | INFO     | __main__:<module>:248 - START: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC4') )
+2022-05-17 11:12:15.326 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 11:12:21.544 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 11:12:21.548 | INFO     | __main__:<module>:250 - FINISH: (select 行业分类代码,count(*) from CCNDTEMP where top 40000 group by (行业分类代码,'HYCLSC4') )
+2022-05-17 11:12:21.549 | INFO     | __main__:<module>:248 - START: (select 主要主题,count(*) from CCNDTEMP where top 40000 group by (主要主题,'NVSM关键词') )
+2022-05-17 11:12:26.229 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 11:18:29.780 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 11:18:29.793 | INFO     | __main__:<module>:250 - FINISH: (select 主要主题,count(*) from CCNDTEMP where top 40000 group by (主要主题,'NVSM关键词') )
+2022-05-17 11:18:29.797 | INFO     | __main__:<module>:248 - START: (select 次要主题,count(*) from CCNDTEMP where top 40000 group by (次要主题,'NVSM关键词') )
+2022-05-17 11:18:34.487 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 11:18:40.017 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 11:18:40.020 | INFO     | __main__:<module>:250 - FINISH: (select 次要主题,count(*) from CCNDTEMP where top 40000 group by (次要主题,'NVSM关键词') )
+2022-05-17 11:18:40.022 | INFO     | __main__:<module>:248 - START: (select 新作者代码,count(*) from CCNDTEMP where top 40000 group by (新作者代码,'MINTEGER') )
+2022-05-17 11:18:44.719 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 11:24:22.757 | INFO     | __main__:run:210 - total items: 1000
+2022-05-17 11:24:22.771 | INFO     | __main__:<module>:250 - FINISH: (select 新作者代码,count(*) from CCNDTEMP where top 40000 group by (新作者代码,'MINTEGER') )
+2022-05-17 11:24:22.774 | INFO     | __main__:<module>:248 - START: (select 年,count(*) from CPFDTEMP where top 40000 group by (年,'DATE') )
+2022-05-17 11:24:27.464 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 11:24:29.818 | INFO     | __main__:run:210 - total items: 9
+2022-05-17 11:24:29.821 | INFO     | __main__:<module>:250 - FINISH: (select 年,count(*) from CPFDTEMP where top 40000 group by (年,'DATE') )
+2022-05-17 11:24:29.823 | INFO     | __main__:<module>:248 - START: (select 作者代码,count(*) from CPFDTEMP where top 40000 group by (作者代码,'minteger') )
+2022-05-17 11:24:34.490 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 11:24:40.714 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 11:24:40.717 | INFO     | __main__:<module>:250 - FINISH: (select 作者代码,count(*) from CPFDTEMP where top 40000 group by (作者代码,'minteger') )
+2022-05-17 11:24:40.719 | INFO     | __main__:<module>:248 - START: (select 机构代码,count(*) from CPFDTEMP where top 40000 group by (机构代码,'minteger') )
+2022-05-17 11:24:45.408 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 11:24:50.935 | INFO     | __main__:run:210 - total items: 20
+2022-05-17 11:24:50.938 | INFO     | __main__:<module>:250 - FINISH: (select 机构代码,count(*) from CPFDTEMP where top 40000 group by (机构代码,'minteger') )
+2022-05-17 11:24:50.940 | INFO     | __main__:<module>:248 - START: (select 基金代码,count(*) from CPFDTEMP where top 40000 group by (基金代码,'minteger') )
+2022-05-17 11:24:55.624 | INFO     | __main__:run:176 - page num: 16
+2022-05-17 11:25:46.386 | INFO     | __main__:run:210 - total items: 160
+2022-05-17 11:25:46.389 | INFO     | __main__:<module>:250 - FINISH: (select 基金代码,count(*) from CPFDTEMP where top 40000 group by (基金代码,'minteger') )
+2022-05-17 11:25:46.391 | INFO     | __main__:<module>:248 - START: (select 主办单位代码,count(*) from CPFDTEMP where top 40000 group by (主办单位代码,'minteger') )
+2022-05-17 11:25:51.082 | INFO     | __main__:run:176 - page num: 8
+2022-05-17 11:26:16.794 | INFO     | __main__:run:210 - total items: 71
+2022-05-17 11:26:16.797 | INFO     | __main__:<module>:250 - FINISH: (select 主办单位代码,count(*) from CPFDTEMP where top 40000 group by (主办单位代码,'minteger') )
+2022-05-17 11:26:16.799 | INFO     | __main__:<module>:248 - START: (select 会议级别代码,count(*) from CPFDTEMP where top 40000 group by (会议级别代码,'minteger') )
+2022-05-17 11:26:21.477 | INFO     | __main__:run:176 - page num: 1
+2022-05-17 11:26:23.861 | INFO     | __main__:run:210 - total items: 2
+2022-05-17 11:26:23.863 | INFO     | __main__:<module>:250 - FINISH: (select 会议级别代码,count(*) from CPFDTEMP where top 40000 group by (会议级别代码,'minteger') )
+2022-05-17 11:26:23.865 | INFO     | __main__:<module>:248 - START: (select 报告级别代码,count(*) from CPFDTEMP where top 40000 group by (报告级别代码,'minteger') )
+2022-05-17 11:26:28.536 | INFO     | __main__:run:176 - page num: 2
+2022-05-17 11:26:34.018 | INFO     | __main__:run:210 - total items: 4
+2022-05-17 11:26:34.020 | INFO     | __main__:<module>:250 - FINISH: (select 报告级别代码,count(*) from CPFDTEMP where top 40000 group by (报告级别代码,'minteger') )
+2022-05-17 11:26:34.022 | INFO     | __main__:<module>:248 - START: (select 来源代码,count(*) from CPFDTEMP where top 40000 group by (来源代码,'来源代码') )
+2022-05-17 11:26:38.729 | INFO     | __main__:run:176 - page num: 4
+2022-05-17 11:26:51.911 | INFO     | __main__:run:210 - total items: 39
+2022-05-17 11:26:51.914 | INFO     | __main__:<module>:250 - FINISH: (select 来源代码,count(*) from CPFDTEMP where top 40000 group by (来源代码,'来源代码') )
+2022-05-17 11:26:51.916 | INFO     | __main__:<module>:248 - START: (select 出版物代码,count(*) from CPFDTEMP where top 40000 group by (出版物代码,'出版物代码') )
+2022-05-17 11:26:56.617 | INFO     | __main__:run:176 - page num: 4
+2022-05-17 11:27:09.060 | INFO     | __main__:run:210 - total items: 39
+2022-05-17 11:27:09.063 | INFO     | __main__:<module>:250 - FINISH: (select 出版物代码,count(*) from CPFDTEMP where top 40000 group by (出版物代码,'出版物代码') )
+2022-05-17 11:27:09.065 | INFO     | __main__:<module>:248 - START: (select 论文关键词,count(*) from CPFDTEMP where top 40000 group by (论文关键词,'关键词') )
+2022-05-17 11:27:13.733 | INFO     | __main__:run:176 - page num: 100
+2022-05-17 11:33:29.711 | INFO     | __main__:run:210 - total items: 999
+2022-05-17 11:33:29.728 | INFO     | __main__:<module>:250 - FINISH: (select 论文关键词,count(*) from CPFDTEMP where top 40000 group by (论文关键词,'关键词') )
+2022-05-17 11:33:29.730 | INFO     | __main__:<module>:248 - START: (select 机标关键词,count(*) from CPFDTEMP where top 40000 group by (机标关键词,'机标关键词') )
+2022-05-17 11:33:34.416 | INFO     | __main__:run:176 - page num: 100
